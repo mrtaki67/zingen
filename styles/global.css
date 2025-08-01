@@ -78,6 +78,12 @@ a {
   color: inherit;
 }
 
+a:hover {
+  background: var(--brand-gradient);
+
+  color: transparent;
+}
+
 ul[role="list"] {
   list-style: none;
 }
